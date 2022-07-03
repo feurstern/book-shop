@@ -68,7 +68,7 @@ void book::buybook()	{
 	if(count<=*stock)	{
 		*stock=*stock-count;
 		cout<<"\nBooks Bought Sucessfully";
-		cout<<"\nAmount: Rs. "<<(*price)*count;
+		cout<<"\nAmount: Rp. "<<(*price)*count;
 	}
 	else
 		cout<<"\nRequired Copies not in Stock";
